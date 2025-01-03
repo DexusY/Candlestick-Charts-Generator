@@ -2,11 +2,11 @@
 #include <fstream>
 #include <math.h>
 
-#define RESOLUTION 0.5f //skok w osi Y
-#define DISPLAY_X 200 // serokosc wykresu
-#define DISPLAY_Y 50 // wysokosc wykresu
-#define BASE 25 //najnizsza mozliwa wartosc do wyswietlenia na wykresie
-#define NUMBER_OF_DAYS 200 //ostatnie n dni
+#define RESOLUTION 0.5f //Resolution for Y axis
+#define DISPLAY_X 200 // chart's width
+#define DISPLAY_Y 50 // chart's height
+#define BASE 25 //the lowest value to be displayed on the chart
+#define NUMBER_OF_DAYS 200 //last n days
 
 using namespace std;
 
@@ -146,9 +146,9 @@ void generate() {
     printToFile(chart); 
 }
 int main() {
-    cout << "Jacek Orlowski 193337" << endl;
-    cout << "q - wyjscie z programu" << endl;
-    cout << "g - generowanie wykresu" << endl;
+    cout << "author name" << endl;
+    cout << "q - quit program" << endl;
+    cout << "g - generate chart" << endl;
     char input;
     while (true) {
         cin >> input;
