@@ -14,14 +14,12 @@
 
 ## Table of Contents
 - [About The Project](#about-the-project)
+- [Demo](#Demo)
 - [Built With](#built-with)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
+- [Prerequisites](#Prerequisites)
+- [Installation](#Installation)
+- [Usage](#Usage)
+
 
 ---
 
@@ -37,6 +35,7 @@ Features:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
+## Demo
 
 ## Built With
 
@@ -46,7 +45,6 @@ Features:
 
 ---
 
-## Getting Started
 
 ### Prerequisites
 
@@ -54,8 +52,4 @@ Features:
 
 ### Installation
 
-1. Clone the repo
-
-```sh
-git clone https://github.com/DexusY/Candlestick-Charts-generator---Generator-Wykresow-Swiecowych.git
-cd Candlestick-Charts-generator---Generator-Wykresow-Swiecowych
+### Usage
