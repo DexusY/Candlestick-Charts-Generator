@@ -6,12 +6,7 @@
   <h1 align="center">Candlestick Charts Generator</h1>
   <p align="center">
     A C++ program that generates ASCII candlestick charts from CSV stock data.
-    <br />
-    <a href="#usage">Usage</a>
-    ·
-    <a href="#contributing">Contributing</a>
-    ·
-    <a href="#license">License</a>
+    <br />  
   </p>
 </div>
 
