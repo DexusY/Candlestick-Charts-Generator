@@ -50,9 +50,13 @@ Features:
 
 ### Prerequisites
 
-| Working C++ compiler (e.g. g++) | 
-| Terminal or command line to compile and run the program |
-| Programming environment (e.g. Visual Studio Code, CLion, or any other IDE) for editing and testing the code |
+| Requirement | Description |
+|-------------|-------------|
+| **C++ compiler** | Working C++ compiler (e.g. `g++`) |
+| **Terminal** | Command line to compile and run the program |
+| **Programming environment** | Visual Studio Code, CLion, or any other IDE for editing and testing the code |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
 
