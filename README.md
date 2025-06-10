@@ -55,11 +55,15 @@ Features:
 | **C++ compiler** | Working C++ compiler (e.g. `g++`) |
 | **Terminal** | Command line to compile and run the program |
 | **Programming environment** | Visual Studio Code, CLion, or any other IDE for editing and testing the code |
+| **Stock CSV file** | With the (Date,Open,High,Low,Close) format | 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
 
+Prepare a CSV file with your stock data (e.g., stock_data.csv)
+
+Put your CSV file name in this fragment of code:
 Clone the repository and change directory:
 
 ```bash
