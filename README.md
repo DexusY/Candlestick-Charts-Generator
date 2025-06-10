@@ -70,6 +70,6 @@ Compile the project (example for Wnidows using MinGW):
 g++ main.cpp -o candlestick
 ```
 
-**or by opening** `main.cpp` **in your preferred programming environment (e.g., Visual Studio Code) and building/running the program from there.**
+Or by open** `main.cpp` **in your preferred programming environment (e.g., Visual Studio Code) and build/run the program from there
 
 ### Usage
