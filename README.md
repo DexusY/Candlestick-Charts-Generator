@@ -58,13 +58,18 @@ Features:
 
 ### Installation
 
-Clone the repository:
+Clone the repository and change directory:
 
 ```bash
 git clone https://github.com/DexusY/Candlestick-Charts-Generator.git
 cd Candlestick-Charts-Generator
+```
+Compile the project (example for Wnidows using MinGW):
 
+```bash
+g++ main.cpp -o candlestick
 ```
 
+**or by opening** `main.cpp` **in your preferred programming environment (e.g., Visual Studio Code) and building/running the program from there.**
 
 ### Usage
