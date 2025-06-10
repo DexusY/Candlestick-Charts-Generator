@@ -50,11 +50,9 @@ Features:
 
 ### Prerequisites
 
--A working C++ compiler (e.g. g++).
-
--A terminal or command line to compile and run the program.
-
--A programming environment (e.g. Visual Studio Code, CLion, or any other IDE) for editing and testing the code.
+| Working C++ compiler (e.g. g++) | 
+| Terminal or command line to compile and run the program |
+| Programming environment (e.g. Visual Studio Code, CLion, or any other IDE) for editing and testing the code |
 
 ### Installation
 
