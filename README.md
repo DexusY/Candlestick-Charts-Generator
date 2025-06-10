@@ -64,5 +64,7 @@ Clone the repository:
 git clone https://github.com/DexusY/Candlestick-Charts-Generator.git
 cd Candlestick-Charts-Generator
 
+```
+
 
 ### Usage
