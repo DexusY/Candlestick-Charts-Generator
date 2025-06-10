@@ -70,7 +70,7 @@ git clone https://github.com/DexusY/Candlestick-Charts-Generator.git
 cd Candlestick-Charts-Generator
 ```
 
-Open the** `main.cpp` **with text editor, put name of your CSV file in below function and save file:
+Open the `main.cpp` with text editor, put name of your CSV file in below function and save file:
 
 ```cpp
 void generate() {
@@ -93,6 +93,6 @@ Compile the project (example for Wnidows using MinGW):
 g++ main.cpp -o candlestick
 ```
 
-Or open** `main.cpp` **in your preferred programming environment (e.g., Visual Studio Code) and build/run the program from there
+Or open `main.cpp` in your preferred programming environment (e.g., Visual Studio Code) and build/run the program from there
 
 ### Usage
