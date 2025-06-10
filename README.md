@@ -63,12 +63,29 @@ Features:
 
 Prepare a CSV file with your stock data (e.g., stock_data.csv)
 
-Put your CSV file name in this fragment of code:
 Clone the repository and change directory:
 
 ```bash
 git clone https://github.com/DexusY/Candlestick-Charts-Generator.git
 cd Candlestick-Charts-Generator
+```
+
+Open the** `main.cpp` **with text editor, put name of your CSV file in below function and save file:
+
+```cpp
+void generate() {
+    char chart[DISPLAY_X + 1][DISPLAY_Y];
+    init(chart);
+    const char* filename = "intc_us_data.csv"; // < your CSV file name
+    int lines = countLines(filename); 
+    char ch;
+    ifstream file(filename);
+    goToLine(file, lines - NUMBER_OF_DAYS); 
+    for (int i = 0; i < DISPLAY_X; i++) {  
+        readLine(file, chart, i);
+    }
+    printToFile(chart); 
+}
 ```
 Compile the project (example for Wnidows using MinGW):
 
@@ -76,6 +93,6 @@ Compile the project (example for Wnidows using MinGW):
 g++ main.cpp -o candlestick
 ```
 
-Or by open** `main.cpp` **in your preferred programming environment (e.g., Visual Studio Code) and build/run the program from there
+Or open** `main.cpp` **in your preferred programming environment (e.g., Visual Studio Code) and build/run the program from there
 
 ### Usage
