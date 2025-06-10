@@ -39,7 +39,9 @@ Features:
 
 ## Built With
 
-- [C++](https://isocpp.org/) - Core programming language
+| Language | Description |
+|----------|-------------|
+| 🟦 **C++** | Core programming language for processing CSV files and generating ASCII charts |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -48,8 +50,19 @@ Features:
 
 ### Prerequisites
 
-- C++ compiler (e.g., `g++`)
+-A working C++ compiler (e.g. g++).
+
+-A terminal or command line to compile and run the program.
+
+-A programming environment (e.g. Visual Studio Code, CLion, or any other IDE) for editing and testing the code.
 
 ### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/DexusY/Candlestick-Charts-Generator.git
+cd Candlestick-Charts-Generator
+
 
 ### Usage
